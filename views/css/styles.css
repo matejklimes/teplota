@@ -1,0 +1,40 @@
+h1 {
+    color: #FFC107;
+    background-color: #343A40;
+    padding: 40px;
+    text-align: center;
+    font-size: 45px;
+}
+
+table {
+    font-size: large;
+    width: 30%;
+    height: 20%; 
+    margin-left:35%; 
+    margin-right:35%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+p {
+    color: #FFC107;
+    background-color: #343A40;
+    padding: 20px;
+    text-align: center;
+}
+
+thead {
+    background-color: #FFC107;
+}
+
+tbody {
+    background-color: #343A40;
+    color: #FFFFFF;
+}
+
+
+

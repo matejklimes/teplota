@@ -1,0 +1,21 @@
+html
+    head
+        title Teploty
+        style 
+            include css/styles.css
+    body
+        h1 #{nadpis}
+        table
+            thead
+                tr 
+                    th Teplota
+                    th Počasí
+                    th Datum 
+            tbody 
+                each tp in teploty
+                    tr 
+                        td #{tp.teplota}
+                        td #{tp.pocasi}
+                        td #{tp.datum}
+        p &copy; 2022 - Matěj Klimeš, IT2, SŠPU Opava
+    
